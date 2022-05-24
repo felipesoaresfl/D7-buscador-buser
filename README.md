@@ -1,5 +1,6 @@
 # d7-buscador-buser
-Clone do Buscador do site da Buser, versão focada no mobile.
+
+Clone estático do Buscador do site da Buser, versão focada no mobile.
 
 ## View Page
 
