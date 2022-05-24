@@ -15,16 +15,18 @@
   </head>
   <body>
     <div class="container">
-      <div class="cabecalho">
-        <img
-          src="https://dals0gb6i1pll.cloudfront.net/img/buser-horizontal-rosa.0109919.svg"
-          alt="logo buser"
-        />
-        <a href="">Entrar</a>
-      </div>
+      <nav>
+        <div class="cabecalho">
+          <img
+            src="https://dals0gb6i1pll.cloudfront.net/img/buser-horizontal-rosa.0109919.svg"
+            alt="logo buser"
+          />
+          <a href="">Entrar</a>
+        </div>
+      </nav>
 
       <div class="banner">
-        <h1 class="titulo">
+        <h1 class="title">
           Viagens de ônibus mais baratas que a passagem da rodoviaria
         </h1>
         <h2 class="subtitle">Sem taxas, com segurança e preço justo</h2>
@@ -33,19 +35,17 @@
       <main class="container-buscador">
         <div class="buscador">
           <form action="/index.html">
-            <label for="origem">Saindo de</label>
-            <div class="input-items">
-              <input
-                type="text"
-                name="cidade_origem"
-                id="origem"
-                placeholder="Digite uma cidade de partida"
-              />
-            </div>
-            <label for="destino">Indo para</label>
+            <label for="cidade_origem">Saindo de</label>
             <input
               type="text"
               name="cidade_origem"
+              id="origem"
+              placeholder="Digite uma cidade de partida"
+            />
+            <label for="cidade_destino">Indo para</label>
+            <input
+              type="text"
+              name="cidade_destino"
               id="destino"
               placeholder="Digite uma cidade de ida"
             />

@@ -20,11 +20,15 @@ html {
   flex-direction: column;
 }
 
+nav {
+  width: 100%;
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   background-color: #fff;
   max-height: 80px;
 }
@@ -34,4 +38,128 @@ a {
   font-weight: 600;
   text-decoration: none;
   padding-right: 5px;
+}
+
+.banner {
+  padding: 20px;
+}
+
+.title,
+.subtitle {
+  color: white;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.container-buscador {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.buscador {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #424242;
+}
+
+form {
+  padding: 5%;
+}
+
+input {
+  width: 94%;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  overflow: hidden;
+  padding: 0 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: normal;
+}
+
+input:hover {
+  background-color: #120505;
+}
+
+input:active {
+  background-color: #e6e6e6;
+  border: 1px solid #c1c1c1;
+}
+
+.input_data {
+  padding: 0 10px;
+  text-overflow: ellipsis;
+  color: #c1c1c1;
+}
+
+button {
+  background-color: #f11075;
+  border-color: #ad1457;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  max-height: 56px;
+  height: 15%;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  padding-top: 8px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  align-items: center;
+  color: #424242;
+}
+
+.btn-text {
+  font-size: 12px;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
